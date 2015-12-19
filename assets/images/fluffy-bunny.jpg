@@ -1,0 +1,6 @@
+<video width=640 height=320 controls autoplay><source src="/assets/media/press_pour.m4v" type="video/mp4">Your browser does not support the video tag.</video>
+
+<video width="640" height="320" controls>
+  <source src="/assets/media/press_pour.m4v" type="video/mp4">
+  Your browser does not support the video tag.
+</video>

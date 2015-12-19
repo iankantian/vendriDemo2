@@ -1,0 +1,144 @@
+{
+  "result": {
+    "_id": "5662020ab4944f17770c3124",
+    "user_id": "55a6034ab4944f635765f9af",
+    "config": {
+      "width": 640,
+      "height": 420,
+      "minWidth": 300,
+      "minHeight": 34,
+      "retry": 0,
+      "theme": "light",
+      "volume": 0.7,
+      "controls": {
+        "play": true,
+        "volume": true,
+        "mute": true,
+        "progress": true
+      },
+      "triggers": [
+        {
+          "PLID": "1,2",
+          "method": "watch",
+          "action": "play",
+          "condition": "function(e,f){local_vendri=f; return true;}",
+          "maxRuns": 0,
+          "time": 1,
+          "event": {
+            "name": "",
+            "target": ""
+          }
+        }
+      ],
+      "events": [
+        {
+          "name": "adStarted",
+          "callback": ""
+        }
+      ],
+      "platforms": [
+        {
+          "id": 1,
+          "name": 1,
+          "target": "http:\/\/joshuabrown.com\/many_to_many.html",
+          "type": "web"
+        },
+        {
+          "id": 2,
+          "name": "diditstick",
+          "target": "http:\/\/joshuabrown.com\/index_no_code.html",
+          "type": "web"
+        }
+      ],
+      "placements": [
+        {
+          "PFID": 1,
+          "id": 1,
+          "name": 1,
+          "target": "left_video_pane",
+          "type": "element"
+        },
+        {
+          "PFID": 2,
+          "id": 2,
+          "name": "diditstick",
+          "target": "left_video_pane",
+          "type": "element"
+        }
+      ],
+      "campaigns": [
+        {
+          "PLID": 1,
+          "id": 1,
+          "name": 1,
+          "start": "2015-12-03T13:14",
+          "end": "",
+          "imps": 0
+        },
+        {
+          "PLID": 2,
+          "id": 2,
+          "name": 2,
+          "start": "2015-12-03T13:16",
+          "end": "",
+          "imps": 0
+        }
+      ],
+      "creatives": {
+        "0": {
+          "CPID": 1,
+          "id": 1,
+          "name": 1,
+          "resource": "\/assets\/xml\/josh_test.xml",
+          "type": "vast",
+          "p": 0,
+          "imps": 0
+        },
+        "1": {
+          "CPID": 2,
+          "id": 2,
+          "name": 2,
+          "resource": "<video width=\"640\" height=\"320\"autoplay controls muted><source src=\"\/assets\/media\/press_pour.mp4\" type\"\/video\/mp4\">No HTML5!<\/video>",
+          "type": "html",
+          "p": 0,
+          "imps": 0
+        },
+        "2": {
+          "CPID": 3,
+          "id": 3,
+          "name": "side by side youtube",
+          "resource": "stuff",
+          "type": "html",
+          "p": 0,
+          "imps": 0
+        },
+        "4": {
+          "CPID": 5,
+          "id": 5,
+          "name": "header text",
+          "resource": "<h1>Vendri Demos!<\/h1>",
+          "type": "html",
+          "p": 0,
+          "imps": 0
+        }
+      },
+      "debug": true,
+      "constraints": {
+        "startTime": 3,
+        "playTime": false
+      },
+      "adSkip": {
+        "duration": 2,
+        "textBefore": "You can skip this ad in {duration}",
+        "textAfter": "Skip now",
+        "sync": true,
+        "enabled": false
+      },
+      "audioClickthrough": false
+    },
+    "name": "Many to Many Clone Did it Stick",
+    "isLive": true,
+    "updated_at": "2015-12-04 23:55:25",
+    "created_at": "2015-12-04 21:13:46"
+  }
+}

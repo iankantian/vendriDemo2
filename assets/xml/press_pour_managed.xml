@@ -1,0 +1,28 @@
+<VAST version="2.0">
+    <Ad id="229">
+        <InLine>
+            <AdTitle><![CDATA[Josh Play VAST]]></AdTitle>
+            <Description><![CDATA[]]></Description>
+            <Creatives>
+                <Creative sequence="1" id="1">
+                    <Linear>
+                        <Duration>00:08</Duration>
+                        <TrackingEvents>
+                        </TrackingEvents>
+                        <MediaFiles>
+                            <MediaFile id="1" delivery="progressive" bitrate="4500" width="640" height="480" type="video/mp4"><![CDATA[assets/media/press_pour_1080x4500kbps.mp4]]></MediaFile>
+                            <MediaFile id="2" delivery="progressive" bitrate="3090" width="640" height="480" type="video/mp4"><![CDATA[assets/media/press_pour_1280x800x3090kbps.mp4]]></MediaFile>
+                            <MediaFile id="3" delivery="progressive" bitrate="2000" width="640" height="480" type="video/mp4"><![CDATA[assets/media/press_pour_720x2000kbps.mp4]]></MediaFile>
+                            <MediaFile id="4" delivery="progressive" bitrate="1850" width="640" height="480" type="video/mp4"><![CDATA[assets/media/press_pour_1024x600x1850kpbs.mp4]]></MediaFile>
+                            <MediaFile id="5" delivery="progressive" bitrate="1160" width="640" height="480" type="video/mp4"><![CDATA[assets/media/press_pour_800x480x1160kbps.mp4]]></MediaFile>
+                            <MediaFile id="5" delivery="progressive" bitrate="500" width="640" height="480" type="video/mp4"><![CDATA[assets/media/press_pour_480x500kpbs.mp4]]></MediaFile>
+                            <MediaFile id="6" delivery="progressive" bitrate="500" width="640" height="480" type="video/mp4"><![CDATA[assets/media/press_pour_360x500kbps.mp4]]></MediaFile>
+                            <MediaFile id="7" delivery="progressive" bitrate="250" width="640" height="480" type="video/mp4"><![CDATA[assets/media/press_pour_320x240x250kpbs.mp4]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <Extensions></Extensions>
+        </InLine>
+    </Ad>
+</VAST>
