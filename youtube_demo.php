@@ -5,7 +5,7 @@
 echo '<div id="right"> Youtube does it:<br>
 
     <div id="right_video_pane">
-        <iframe width=100% height="320" src="//www.youtube.com/embed/wujiz8Q_-ZU?enablejsapi=1" frameborder="0"
+        <iframe height="360" src="//www.youtube.com/embed/wujiz8Q_-ZU?autoplay=1" frameborder="0"
                 allowfullscreen id="video"></iframe>
         <script>             (function () {
             console.log("got script?\n");
